@@ -10,6 +10,8 @@ function App() {
         <Route path='/' element={<Mainpage />} />
         <Route path='/Sample-Project-todolist' element={<ToDoList />} />
         <Route path='/Sample-Project-boxshadow' element={<BoxShadow />} />
+        <Route path='/mySampleWebsite' element={<App/>} />
+        <Route path='http://AmirKehtarian.github.io/mySampleWebsite' element={<App/>} />
       </Routes>
     </div>
   );
