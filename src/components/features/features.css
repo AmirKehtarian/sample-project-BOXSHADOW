@@ -1,0 +1,103 @@
+.title {
+    text-align: center;
+    margin-bottom: 4rem;
+    padding: 0 4.5rem;
+}
+
+.title h2 {
+    font-size: 2.5rem;
+    padding: 1.5rem 0;
+    font-weight: 600;
+    color: var(--dark-text);
+}
+
+.title p {
+    font-size: 1.35rem;
+    color: var(--dark-text);
+}
+
+.features-content {
+    display: flex;
+    align-items: center;
+}
+
+.features-content .features-left, 
+.features-content .features-right {
+    width: 50%;
+}
+
+.features-content .features-left {
+    text-align: center;
+}
+
+.features-content .features-left img {
+    width: 90%;
+}
+
+.features-content .features-right .feature {
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: flex-start;
+}
+
+.features-content .features-right .feature .features-icon {
+    position: relative;
+}
+
+.features-content .features-icon .inner-icon {
+    position: absolute;
+    top: 25%;
+    left: 27%;
+    transform: translateX(-50%, -50%);
+    -webkit-transform: translateX(-50%, -50%);
+    -moz-transform: translateX(-50%, -50%);
+    -ms-transform: translateX(-50%, -50%);
+    -o-transform: translateX(-50%, -50%);
+}
+
+.features-content .features-right .feature .features-text {
+    padding-left: 2rem;
+}
+
+.features-content .features-right .feature .features-text h2 {
+    font-size: 2rem;
+    color: #125dce;
+}
+
+.features-content .features-right .feature .features-text p {
+    font-size: 1.3rem;
+    font-weight: 300;
+    width: 90%;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .features-content .features-right .feature .features-text h2 {
+        font-size: 1.7rem;
+    }
+    .features-content .features-right .feature .features-text p {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .features-content .features-right .feature .features-text h2 {
+        font-size: 1.5rem;
+    }
+    .features-content .features-right .feature .features-text p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .features-content {
+        flex-direction: column;
+    }
+    .features-content .features-left {
+        width: 100%;
+    }
+    .features-content .features-right {
+        width: 85%;
+    }
+}

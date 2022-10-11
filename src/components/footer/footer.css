@@ -1,0 +1,116 @@
+#footer {
+    background: var(--dark-blue);
+    color: #fff;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+.footer h4 {
+    font-size: 1.55rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: rgb(168, 168, 168);
+}
+
+.footer .footer-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .footer-links a {
+    font-size: 1rem;
+    margin-bottom: 7px;
+}
+
+.footer .support {
+    width: 45%;
+}
+
+.footer .contact {
+    width: 55%;
+}
+
+.footer .footer-contact a {
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 7px;
+}
+
+.footer .footer-contact a:hover, .footer .footer-links a:hover {
+    color: rgb(168, 168, 168);
+}
+
+.copy-right {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.copy-right span {
+    color: orangered;
+}
+
+.floating {
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    background: var(--light-blue);
+    right: 3rem;
+    bottom: 3.5rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.top {
+    font-size: 2.5rem;
+    transform: translateY(-25%);
+    -webkit-transform: translateY(-25%);
+    -moz-transform: translateY(-25%);
+    -ms-transform: translateY(-25%);
+    -o-transform: translateY(-25%);
+    animation: top-logo .8s ease infinite alternate;
+    -webkit-animation: top-logo .8s ease infinite alternate;
+    margin: 0;
+}
+
+@keyframes top-logo {
+    0% {
+        transform: translateY(-25%);
+        -webkit-transform: translateY(-25%);
+        -moz-transform: translateY(-25%);
+        -ms-transform: translateY(-25%);
+        -o-transform: translateY(-25%);
+}
+    100% {
+        transform: translateY(25%);
+        -webkit-transform: translateY(25%);
+        -moz-transform: translateY(25%);
+        -ms-transform: translateY(25%);
+        -o-transform: translateY(25%);
+}
+}
+
+@media screen and (max-width: 500px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer .contact, .footer .support {
+        margin-bottom: 2rem;
+        width: auto;
+    }
+}
+
+
+

@@ -1,0 +1,170 @@
+#contact {
+    background: url(../../asset/images/amir-3.jpg);
+    text-align: center;
+    color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding-bottom: 3rem;
+}
+
+.contact-form button {
+    background-color: var(--form-button);
+    border: 2px solid var(--form-button);
+    padding: 1rem;
+    color: #fff;
+    border-radius: 5px 0 0 5px;
+    -webkit-border-radius: 5px 0 0 5px;
+    -moz-border-radius: 5px 0 0 5px;
+    -ms-border-radius: 5px 0 0 5px;
+    -o-border-radius: 5px 0 0 5px;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.contact-form input {
+    padding: .9rem;
+    width: 400px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 1px solid #777;
+    background: transparent;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.socials .social-icon {
+    width: 4rem;
+    height: 4rem;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: 0 1.5rem;
+    cursor: pointer;
+}
+
+.socials .social-icon a {
+    margin: 0;
+    height: 20px;
+}
+
+.socials .social-icon svg {
+    font-size: 2rem;
+}
+
+.contact-form .contact-form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.contact-form .contact-form-group input {
+    margin-bottom: 1rem;
+} 
+
+.contact-form .contact-form-group textarea {
+    width: 40rem;
+    background: transparent;
+    height: 25rem;
+    margin-top: 1.5rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: #fff;
+    font-size: 1.75rem;
+    padding: 1.5rem;
+}
+
+.send input {
+    background-color: #125dce;
+    border: 2px solid #125dce;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    -ms-border-radius: 0 0 5px 5px;
+    -o-border-radius: 0 0 5px 5px;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+.form-control:focus {
+    border: 1px solid #fff;
+}
+
+.toast-message {
+    font-size: 1.3rem !important;
+}
+
+@media screen and (max-width: 600px) {
+    .contact-form input {
+        width: 90%;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+}
+    .contact-form button {
+        width: 90%;
+        margin-bottom: 2rem;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+}
+    .contact-form .contact-form-group textarea {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .socials .social-icon {
+        width: 15%;
+        margin: 0;
+    }
+    .contact h2 {
+        font-size: 2rem;
+    }
+    .socials .social-icon {
+        width: 3rem;
+        height: 3rem;
+        margin: 5px;
+    }
+    .socials .social-icon svg {
+        font-size: 1.6rem;
+    }
+    
+}
+
+
+   
