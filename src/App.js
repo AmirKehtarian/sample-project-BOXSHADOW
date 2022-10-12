@@ -8,12 +8,9 @@ function App() {
     <div>
       <Routes>
         <Route path='/my-sample-projects' element={<Mainpage />} />
-        <Route path='/Sample-Project-todolist' element={<ToDoList />} />
+        <Route path='https://amirkehtarian.github.io/mySampleWebsite/Sample-Project-todolist' element={<ToDoList />} />
         
         <Route path='/Sample-Project-boxshadow' element={<BoxShadow />} />
-        
-        {/* <Route path='/my-sample-projects' element={<App/>} />
-        <Route path='http://AmirKehtarian.github.io/my-sample-projects' element={<App/>} /> */}
       </Routes>
     </div>
   );
