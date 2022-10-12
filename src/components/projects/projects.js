@@ -21,7 +21,7 @@ const Projects = () => {
           <p>Bitte klicken Sie auf die Buttons</p>
         </div>
         <div className='projects-names'>
-          <a href='/#/Sample-Project-todolist' target='_blank'>
+          <a href='/Sample-Project-todolist' target='_blank'>
             <div className='projects-name'>
               <MdChecklistRtl size={25} />
               <p>To Do List</p>
