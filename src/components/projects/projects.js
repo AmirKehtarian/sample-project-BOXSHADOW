@@ -21,13 +21,13 @@ const Projects = () => {
           <p>Bitte klicken Sie auf die Buttons</p>
         </div>
         <div className='projects-names'>
-          <a href='/Sample-Project-todolist' target='_blank'>
+          <a href='/sample-project-TODOLIST' target='_blank'>
             <div className='projects-name'>
               <MdChecklistRtl size={25} />
               <p>To Do List</p>
             </div>
           </a>
-          <a href='/Sample-Project-boxshadow' target='_blank'>
+          <a href='/sample-project-BOXSHADOW' target='_blank'>
             <div className='projects-name'>
               <FiCopy size={25} />
               <p>Box-Shadows</p>

@@ -7,10 +7,9 @@ function App() {
   return (
       <div>
         <Routes>
-          <Route path='/my-sample-project' element={<Mainpage />} />
-          <Route path='/Sample-Project-todolist' element={<ToDoList />} />
-
-          <Route path='/Sample-Project-boxshadow' element={<BoxShadow />} />
+          <Route path='/my-sample-WEBSITE' element={<Mainpage />} />
+          <Route path='/sample-project-TODOLIST' element={<ToDoList />} />
+          <Route path='/sample-project-BOXSHADOW' element={<BoxShadow />} />
         </Routes>
       </div>
   );
