@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/sample-project-BOXSHADOW/static/css/main.cc958d70.css",
+    "main.js": "/sample-project-BOXSHADOW/static/js/main.9b86634a.js",
+    "static/media/Motivation.pdf": "/sample-project-BOXSHADOW/static/media/Motivation.8834bc41574e5356438b.pdf",
+    "static/media/amir-3.jpg": "/sample-project-BOXSHADOW/static/media/amir-3.704ea6dd6dac9fcb16e6.jpg",
+    "static/media/Lebenslauf.pdf": "/sample-project-BOXSHADOW/static/media/Lebenslauf.f69ed6b8c85dc5624727.pdf",
+    "static/media/img-10.png": "/sample-project-BOXSHADOW/static/media/img-10.81dd0d76e4e203663730.png",
+    "static/media/img-4.png": "/sample-project-BOXSHADOW/static/media/img-4.13d69b9c65054030b16e.png",
+    "index.html": "/sample-project-BOXSHADOW/index.html",
+    "main.cc958d70.css.map": "/sample-project-BOXSHADOW/static/css/main.cc958d70.css.map",
+    "main.9b86634a.js.map": "/sample-project-BOXSHADOW/static/js/main.9b86634a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc958d70.css",
+    "static/js/main.9b86634a.js"
+  ]
+}
