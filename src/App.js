@@ -5,14 +5,14 @@ import ToDoList from './pages/ToDoList/ToDoList';
 
 function App() {
   return (
-    <div>
-      <Routes>
-        <Route path='/my-sample-project' element={<Mainpage />} />
-        <Route path='/Sample-Project-todolist' element={<ToDoList />} />
-        
-        <Route path='/Sample-Project-boxshadow' element={<BoxShadow />} />
-      </Routes>
-    </div>
+      <div>
+        <Routes>
+          <Route path='/my-sample-project' element={<Mainpage />} />
+          <Route path='/Sample-Project-todolist' element={<ToDoList />} />
+
+          <Route path='/Sample-Project-boxshadow' element={<BoxShadow />} />
+        </Routes>
+      </div>
   );
 }
 
